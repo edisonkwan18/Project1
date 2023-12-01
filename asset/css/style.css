@@ -1,0 +1,139 @@
+
+/* Generic setting */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+}
+
+
+
+/* Main section */
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* Hero image slide start */
+
+.carousel_map {
+	width: 420px;
+	height: 315px;
+	display:flex	
+}
+
+.slide {
+	width: inherit;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+}
+
+/* When hover on the image, button will appear */
+.slide:hover .labels {
+	display: flex;
+}
+
+/* When hover on the slide, animartion will stop */
+.slide:hover .list {
+	animation: none;
+}
+
+/* Hide the radio button */
+.slide input {
+	display: none;
+}
+
+/* Position of button */
+.labels {
+	position: absolute;
+	bottom: 0.5em;
+	z-index: 1;
+	width: inherit;
+	justify-content: center;
+    /* When hover leave, button will hide */
+	display: none;	
+}
+
+/* 按钮样式 */
+.labels label {
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	margin: 0 0.3rem;
+	border: 0.1rem solid #fff;
+	background-color: transparent;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+/* Button will be colored when checked */
+input[id=pic1]:checked ~ .labels label[for=pic1],
+input[id=pic2]:checked ~ .labels label[for=pic2],
+input[id=pic3]:checked ~ .labels label[for=pic3],
+input[id=pic4]:checked ~ .labels label[for=pic4] {
+	background-color: #f80000;
+	border: 0.1rem solid #fff;
+}
+
+/* Choose radio button to choose the image */
+input[id=pic1]:checked ~ .list {
+	transform: translate(calc(0 * 420px));
+}
+input[id=pic2]:checked ~ .list {
+	transform: translate(calc(-1 * 420px));
+}	
+input[id=pic3]:checked ~ .list {
+	transform: translate(calc(-2 * 420x));
+}
+input[id=pic4]:checked ~ .list {
+	transform: translate(calc(-3 * 420px));
+}
+
+/* remove the bullet point in the list */
+ul {
+	list-style: none;
+}
+
+.list {
+	width: calc(5 * 420px);
+	height: inherit;
+	position: relative;
+	
+	/* Animation setting */
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+	0% {
+		transform: translate(calc(0 * 420px));
+	}
+	25% {
+		transform: translate(calc(-1 * 420px));
+	}
+	50% {
+		transform: translate(calc(-2 * 420px));
+	}
+	75% {
+		transform: translate(calc(-3 * 420px));
+	}
+	100% {
+		transform: translate(calc(-4 * 420px));
+	}
+}
+
+/* The setting of the image */
+.item {
+	width: 420px;
+	height: 315px;
+	float: left;
+}
+/* Hero image slide end */
