@@ -8,10 +8,23 @@
 
 /* Set Variable */
 :root {
+	/* Mobile */
 	--mob-nav-h: 7vh;
 	--mob-nav-input: 2.5em;
 	--mob-nav-span-w: 1.5em;
 	--mob-nav-span-h: 0.25em;
+	
+
+	/* Tablet 768px */
+	/* Remember to calculate --tab-hero-pad (100vw -w)/2  */
+	--tab-hero-w: 64vw;
+	--tab-hero-pad:	calc(36vw/2);
+
+	/* Laptop 768px */
+	/* Remember to calculate --lap-hero-pad (100vw -w)/2  */
+	--lap-hero-w: 48vw;
+	--lap-hero-pad:	calc(52vw/2);
+
   }
 
 /* General styles */
@@ -19,7 +32,7 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-}
+	}
 
 .hidden-heading {
     display: none;
@@ -151,7 +164,7 @@ main {
 /* Hero image slide start */
 .carousel_map {
 	width: 100vw;
-	max-height: 400px;
+	/* max-height: var(--mob-hero-h); */
 	display:flex	
 }
 
@@ -262,12 +275,24 @@ ul {
 /* The setting of the image */
 .item {
 	width: 100vw;
-	max-height: 310px;
+	/* max-height: var(--mob-hero-h); */
 	float: left;
-	object-fit: cover
 }
 
+.item > img {
+	aspect-ratio: 1 / 1;
+	object-fit: fill;
+	object-position: center;
+}
+
+
 /* Hot item section */
+
+#hot-item{
+	position: relative;
+	/* Make main element take up any surplus space to push footer down */
+	flex: 1 0 auto;
+}
 
 #hot-product {
 	display: flex;
@@ -307,3 +332,82 @@ ul {
 #footer {
 	background-color: aquamarine;
 }
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+/* Index.html */
+/* Navbar Section */
+/* header {
+	height: var(--tab-nav-h);
+} */
+
+
+/* Main Section */
+/* Hero slides */
+
+#hero {
+	padding: 0 var(--tab-hero-pad);
+}
+
+.carousel_map {
+	width: var(--tab-hero-w);
+}
+
+.list {
+	width: calc(5 * var(--tab-hero-w));
+}
+
+@keyframes move {
+	0% {transform: translate(calc(0 * var(--tab-hero-w)));}
+	25% {transform: translate(calc(-1 * var(--tab-hero-w)));}
+	50% {transform: translate(calc(-2 * var(--tab-hero-w)));}
+	75% {transform: translate(calc(-3 * var(--tab-hero-w)));}
+	100% {transform: translate(calc(-4 * var(--tab-hero-w)));}
+}
+
+.item {
+	width: var(--tab-hero-w);
+}
+
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* Media query: Laptop and larger (1024px and up) */
+@media screen and (min-width: 1024px) {
+
+	/* Index.html */
+	/* Navbar Section */
+
+	/* Main Section */
+	/* Hero slides */
+	
+	#hero {
+		padding: 0 var(--lap-hero-pad);
+	}
+	
+	.carousel_map {
+		width: var(--lap-hero-w);
+	}
+	
+	.list {
+		width: calc(5 * var(--lap-hero-w));
+	}
+	
+	@keyframes move {
+		0% {transform: translate(calc(0 * var(--lap-hero-w)));}
+		25% {transform: translate(calc(-1 * var(--lap-hero-w)));}
+		50% {transform: translate(calc(-2 * var(--lap-hero-w)));}
+		75% {transform: translate(calc(-3 * var(--lap-hero-w)));}
+		100% {transform: translate(calc(-4 * var(--lap-hero-w)));}
+	}
+	
+	.item {
+		width: var(--lap-hero-w);
+	}
+	
+	}
