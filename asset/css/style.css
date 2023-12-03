@@ -8,10 +8,16 @@
 
 /* Set Variable */
 :root {
+	/* Mobile */
 	--mob-nav-h: 7vh;
 	--mob-nav-input: 2.5em;
 	--mob-nav-span-w: 1.5em;
 	--mob-nav-span-h: 0.25em;
+	--mob-hero-h: 36vh;
+
+	/* Tablet 768px */
+	--tab-nav-h: 10vh;
+	
   }
 
 /* General styles */
@@ -151,7 +157,7 @@ main {
 /* Hero image slide start */
 .carousel_map {
 	width: 100vw;
-	max-height: 400px;
+	/* max-height: var(--mob-hero-h); */
 	display:flex	
 }
 
@@ -262,12 +268,23 @@ ul {
 /* The setting of the image */
 .item {
 	width: 100vw;
-	max-height: 310px;
+	/* max-height: var(--mob-hero-h); */
 	float: left;
-	object-fit: cover
+}
+
+.item > img {
+	aspect-ratio: 1 / 1;
+	object-fit: fill;
+	object-position: center;
 }
 
 /* Hot item section */
+
+#hot-item{
+	position: relative;
+	/* Make main element take up any surplus space to push footer down */
+	flex: 1 0 auto;
+}
 
 #hot-product {
 	display: flex;
@@ -306,4 +323,16 @@ ul {
 /* Footer section */
 #footer {
 	background-color: aquamarine;
+}
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+/* Index.html */
+/* Navbar Section */
+/* header {
+	height: var(--tab-nav-h);
+} */
+
 }
