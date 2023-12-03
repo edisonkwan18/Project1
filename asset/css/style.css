@@ -8,6 +8,14 @@
 
 /* Set Variable */
 :root {
+	/* Mobile Landscape */
+	--mob-ls-nav-h: 10vh;
+	--mob-ls-nav-input: 2.5em;
+	--mob-ls-nav-span-w: 1.5em;
+	--mob-ls-nav-span-h: 0.25em;
+	--mob-ls-hot-item-img-w: 15vw;
+	--mob-ls-hot-item-img-h: 15vh;
+
 	/* Mobile */
 	--mob-nav-h: 7vh;
 	--mob-nav-input: 2.5em;
@@ -151,7 +159,8 @@ header {
 #logo{
 	z-index: 1;
 	max-height: var(--mob-nav-h);
-	
+	position: relative;	
+	right:1vh
 }
 
 
@@ -307,6 +316,11 @@ ul {
 	background-color: orange;
 }
 
+.gap > h2 {
+	color: #BE2228;
+	text-align: center;
+}
+
 .product-container {
 	display: flex;
 	width: 75%;
@@ -332,11 +346,7 @@ ul {
 	position: relative;
 	height: var(--hot-item-img-h);
 	width: var(--hot-item-img-w);
-	flex: 1 1 auto;
-	/* min-height: 150px;
-	max-height: ;
-	min-width: 150px;
-	max-width: ; */
+	flex: 1 1 20vw;
 	border-radius: 0.25em;
 	margin: 0.6em;
 }
@@ -349,7 +359,9 @@ ul {
 .hot-item-box-container {
 	display: flex;
 	padding-top: 1.5em;
-	padding-bottom: 0.5em;	
+	padding-bottom: 0.5em;
+	width: 67%;	
+	max-width: inherit;
 }
 
 .hot-item-box-container h3 {
@@ -392,7 +404,65 @@ ul {
 	background-color: aquamarine;
 }
 
+/* -------------------------------------------------------------------------------------------- */
 
+/* Media query: mobile landscape (height:500px and down) */
+@media only screen and (max-height: 500px) {
+/* header */
+header {
+	height: var(--mob-ls-nav-h);
+}
+
+.navbar {
+	top: -0.3em;
+	padding: 0.1875em;
+}
+
+.navbar input {
+	width: var(--mob-ls-nav-input);
+	height: var(--mob-ls-nav-input);
+
+}
+.navbar span {
+	width: var(--mob-ls-nav-span-w);
+	height: var(--mob-ls-nav-span-h);
+	left: 0.475em;
+}
+
+/* Logo */
+#logo{
+	max-height: var(--mob-ls-nav-h);
+}
+
+/* Main section */
+main {
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: var(--mob-ls-nav-h);
+}
+
+#hot-product {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.product-container {
+	width: 17.5em;
+	margin: 2em;
+}
+
+.hot-item-img {
+	height: 6.25em;
+	width: 6.25em;
+}
+
+.hot-item-img > img {
+	height: 6.25em;
+	width: 6.25em;
+}
+
+
+}
 /* -------------------------------------------------------------------------------------------- */
 
 /* Media query: tablets and larger (768px and up) */
