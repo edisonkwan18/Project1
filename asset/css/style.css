@@ -13,11 +13,18 @@
 	--mob-nav-input: 2.5em;
 	--mob-nav-span-w: 1.5em;
 	--mob-nav-span-h: 0.25em;
-	--mob-hero-h: 36vh;
+	
 
 	/* Tablet 768px */
-	--tab-nav-h: 10vh;
-	
+	/* Remember to calculate --tab-hero-pad (100vw -w)/2  */
+	--tab-hero-w: 64vw;
+	--tab-hero-pad:	calc(36vw/2);
+
+	/* Laptop 768px */
+	/* Remember to calculate --lap-hero-pad (100vw -w)/2  */
+	--lap-hero-w: 48vw;
+	--lap-hero-pad:	calc(52vw/2);
+
   }
 
 /* General styles */
@@ -25,7 +32,7 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-}
+	}
 
 .hidden-heading {
     display: none;
@@ -278,6 +285,7 @@ ul {
 	object-position: center;
 }
 
+
 /* Hot item section */
 
 #hot-item{
@@ -326,6 +334,8 @@ ul {
 }
 
 
+/* -------------------------------------------------------------------------------------------- */
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -335,4 +345,69 @@ ul {
 	height: var(--tab-nav-h);
 } */
 
+
+/* Main Section */
+/* Hero slides */
+
+#hero {
+	padding: 0 var(--tab-hero-pad);
 }
+
+.carousel_map {
+	width: var(--tab-hero-w);
+}
+
+.list {
+	width: calc(5 * var(--tab-hero-w));
+}
+
+@keyframes move {
+	0% {transform: translate(calc(0 * var(--tab-hero-w)));}
+	25% {transform: translate(calc(-1 * var(--tab-hero-w)));}
+	50% {transform: translate(calc(-2 * var(--tab-hero-w)));}
+	75% {transform: translate(calc(-3 * var(--tab-hero-w)));}
+	100% {transform: translate(calc(-4 * var(--tab-hero-w)));}
+}
+
+.item {
+	width: var(--tab-hero-w);
+}
+
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* Media query: Laptop and larger (1024px and up) */
+@media screen and (min-width: 1024px) {
+
+	/* Index.html */
+	/* Navbar Section */
+
+	/* Main Section */
+	/* Hero slides */
+	
+	#hero {
+		padding: 0 var(--lap-hero-pad);
+	}
+	
+	.carousel_map {
+		width: var(--lap-hero-w);
+	}
+	
+	.list {
+		width: calc(5 * var(--lap-hero-w));
+	}
+	
+	@keyframes move {
+		0% {transform: translate(calc(0 * var(--lap-hero-w)));}
+		25% {transform: translate(calc(-1 * var(--lap-hero-w)));}
+		50% {transform: translate(calc(-2 * var(--lap-hero-w)));}
+		75% {transform: translate(calc(-3 * var(--lap-hero-w)));}
+		100% {transform: translate(calc(-4 * var(--lap-hero-w)));}
+	}
+	
+	.item {
+		width: var(--lap-hero-w);
+	}
+	
+	}
