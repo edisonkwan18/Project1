@@ -296,6 +296,7 @@ ul {
 
 #hot-product {
 	display: flex;
+	flex-direction: column;
 	background-color: orange;
 }
 
