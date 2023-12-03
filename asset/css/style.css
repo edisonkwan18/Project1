@@ -18,6 +18,7 @@
 body {
 	min-height: 100vh;
 	display: flex;
+	flex-direction: column;
 }
 
 .hidden-heading {
@@ -300,4 +301,9 @@ ul {
 
 #hot-item-price {
 /* text-shadow: none; */
+}
+
+/* Footer section */
+#footer {
+	background-color: aquamarine;
 }
