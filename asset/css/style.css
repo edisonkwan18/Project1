@@ -321,7 +321,6 @@ ul {
 
 .box-left {
 	position: relative;
-	left: 0;
 }
 
 .box-right {
@@ -333,12 +332,12 @@ ul {
 	position: relative;
 	height: var(--hot-item-img-h);
 	width: var(--hot-item-img-w);
+	flex: 1 1 auto;
 	/* min-height: 150px;
 	max-height: ;
 	min-width: 150px;
 	max-width: ; */
 	border-radius: 0.25em;
-	overflow: hidden;
 	margin: 0.6em;
 }
 
