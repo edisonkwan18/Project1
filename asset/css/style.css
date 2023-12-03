@@ -313,7 +313,6 @@ ul {
 #hot-product {
 	display: flex;
 	flex-direction: column;
-	background-color: orange;
 }
 
 .gap > h2 {
@@ -391,7 +390,7 @@ ul {
 
 
 #hot-item-price {
-
+	color: #ff7b00;
 }
 
 .index-cart{
