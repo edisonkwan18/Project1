@@ -146,9 +146,8 @@ main {
     flex-direction: column;
 }
 
-
+/* Hero slide section */
 /* Hero image slide start */
-
 .carousel_map {
 	width: 100vw;
 	max-height: 400px;
@@ -265,4 +264,40 @@ ul {
 	max-height: 310px;
 	float: left;
 	object-fit: cover
+}
+
+/* Hot item section */
+
+#hot-product {
+	display: flex;
+	background-color: orange;
+}
+
+.product-container {
+	display: flex;
+	flex-basis: 80%;
+	background-color: #080A0B;
+	opacity: 0.9;
+	z-index: 1;
+	color: #fff;
+}
+
+.hot-item-box-container {
+	display: flex;
+}
+
+.hot-item-col {
+	flex-direction: column;
+}
+
+.product-size {
+	display:flex
+}
+
+.product-size-name {
+	font-size: 2em;
+}
+
+#hot-item-price {
+/* text-shadow: none; */
 }
