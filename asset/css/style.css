@@ -391,8 +391,8 @@ ul {
 
 .product-size {
 	display:flex;
-	margin-bottom: 1.2em;
-	font-size: 1.1em;
+	margin-top: 1.2em;
+	font-size: 1.5em;
 }
 
 
@@ -407,12 +407,15 @@ ul {
 
 .product-size-name{
 	padding-right: 0.5em !important;
-	font-size: 1.1em;
+	/* font-size: 1.1em; */
 }
 
 
 #hot-item-price {
+	position: absolute;
 	color: #ff7b00;
+	font-size: 2.5em;
+	bottom: 0.6em;
 }
 
 .index-cart{
