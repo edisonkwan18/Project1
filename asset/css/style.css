@@ -455,6 +455,7 @@ ul {
 	border-radius: 15px;
 	box-shadow: 0 3px #999;
 	margin-left: 4.5vw;
+	right: 0.5vw;
 }
 
 .cart-button:hover {background-color: #3e8e41}

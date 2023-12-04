@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Niconail</title>
     <link rel="stylesheet" type='text/css'  href="asset\css\style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Google Font -->
@@ -21,12 +21,13 @@
     <!-- Header -->
     <header>
         <div class="navbar">
-			<input type="checkbox" />
+            <!-- Click the checkbox to extend the navbar -->
+			<input type="checkbox" aria-label="Click here to extend the navigation bar">
 			<span></span>
 			<span></span>
 			<ul>
-				<li><a href="javascript:void(0)">Wearing Instruction</a></li>
-				<li><a href="javascript:void(0)">Product</a></li>
+				<li><a href="instruction.html" aria-label="Click here to visit wearing instruction page">Wearing Instruction</a></li>
+				<li><a href="product.html" aria-label="Click here to visit product page">Product</a></li>
                 <li></li>
                 <li></li>
 			</ul>
@@ -34,7 +35,7 @@
 
         <a href="index.html">
             <h1 class="hidden-heading">Nico Nail</h1>
-            <img src="asset\images\nico-logo.png" id="logo"/>
+            <img src="asset\images\nico-logo.png" id="logo" alt="the image of Nico Nail logo" aria-label="Click here to visit product page"/>
         </a>
         
     </header>
@@ -52,10 +53,10 @@
             <input type="radio" name="pic" id="pic4"/>
                         
             <div class="labels">
-                <label for="pic1"></label>
-                <label for="pic2"></label>
-                <label for="pic3"></label>
-                <label for="pic4"></label>
+                <label for="pic1" aria-label="Click here to review image 1"></label>
+                <label for="pic2" aria-label="Click here to review image 2"></label>
+                <label for="pic3" aria-label="Click here to review image 3"></label>
+                <label for="pic4" aria-label="Click here to review image 4"></label>
             </div>
             
             <!-- Hero image -->
@@ -63,32 +64,32 @@
             <ul class="list">
                 <!-- image 1 -->
                 <li class="item">
-                    <a href="###">
-                        <img src="asset\images\hero-Wear-in.webp" style="height: 100%; width: 100%;"/>
+                    <a href="\instruction.html" aria-label="Click here to visit wearing instruction page">
+                        <img src="asset\images\hero-Wear-in.webp" style="height: 100%; width: 100%;" alt="A Lady in dress shows her beautiful nail"/>
                     </a>
                 </li>
                 <!-- image 2 -->
                 <li class="item">
-                    <a href="###">
-                        <img src="asset\images\hero-best-seller.webp" style="height: 100%; width: 100%;"/>
+                    <a href="\product.html">
+                        <img src="asset\images\hero-best-seller.webp" style="height: 100%; width: 100%;" alt="A Lady with a amber colored nail"/>
                     </a>
                 </li>
                 <!-- image 3 -->
                 <li class="item">
-                    <a href="###">
-                        <img src="asset\images\hero-New-arrival.webp" style="height: 100%; width: 100%;"/>
+                    <a href="\product.html" aria-label="Click here to see our new arrival product">
+                        <img src="asset\images\hero-New-arrival.webp" style="height: 100%; width: 100%;" alt="One hard has manicure and one hard doesn't has manicure"/>
                     </a>
                 </li>
                 <!-- image 4 -->
                 <li class="item">
-                    <a href="###">
-                        <img src="asset\images\hero-contact-us.webp" style="height: 100%; width: 100%;"/>
+                    <a href="\contact.html"  aria-label="Click here to want to contact us">
+                        <img src="asset\images\hero-contact-us.webp" style="height: 100%; width: 100%;"  alt="A lady wearing French style nail"/>
                     </a>
                 </li>
                 <!-- image 1 again to enhance animation -->
                 <li class="item">
-                    <a href="###">
-                        <img src="asset\images\hero-Wear-in.webp" style="height: 100%; width: 100%;"/>
+                    <a href="\instruction.html" aria-label="Click here to visit wearing instruction page">
+                        <img src="asset\images\hero-Wear-in.webp" style="height: 100%; width: 100%;" alt="A Lady in dress shows her beautiful nail"/>                 
                     </a>
                 </li>
             </ul>
@@ -96,10 +97,13 @@
     </div>
     </section>
     
+    <!-- Section for hot selling item -->
     <section id="hot-item">
         <div class="gap">
             <h2>Hot Selling item</h2>
         </div>
+
+    <!-- Box for the product -->
         <div id="hot-product">
             <div class="product-container box-left" >
                 <div class="hot-item-img">
@@ -111,14 +115,14 @@
                             <h3>Cherry Fever</h3>
                             <ul class="product-size">
                                 <li class="product-size-name">SIZE</li>
-                                <li>XS</li>
-                                <li>S</li>
-                                <li>M</li>
+                                <li aria-label="Click here to select size extra small">XS</li>
+                                <li aria-label="Click here to select size small">S</li>
+                                <li aria-label="Click here to select size small">M</li>
                             </ul>
-                            <p id="hot-item-price">£30</p>
+                            <p id="hot-item-price" aria-label="It is the price of cherry fever">£30</p>
                             </div>
                             <div class="index-cart">
-                                <button class="cart-button" type="button" onclick="alert('Added to cart, thank you for purchase');">ADD TO CART</button>
+                                <button class="cart-button" type="button" onclick="alert('Added to cart, thank you for purchase');" aria-label="Click here to add product to the cart">ADD TO CART</button>
                             </div>
                         </div>
                     </div>
@@ -134,14 +138,14 @@
                             <h3>Alien~~</h3>
                             <ul class="product-size">
                                 <li class="product-size-name vert-sub">SIZE</li>
-                                <li class="vert-sub">XS</li>
-                                <li class="vert-sub">S</li>
-                                <li class="vert-sub">M</li>
+                                <li aria-label="Click here to select size extra small">XS</li>
+                                <li aria-label="Click here to select size small">S</li>
+                                <li aria-label="Click here to select size small">M</li>
                             </ul>
-                            <p id="hot-item-price">£30</p>
+                            <p id="hot-item-price" aria-label="It is the price of alien">£30</p>
                             </div>
                             <div class="index-cart">
-                                <button class="cart-button" type="button" onclick="alert('Added to cart, thank you for purchase');">ADD TO CART</button>
+                                <button class="cart-button" type="button" onclick="alert('Added to cart, thank you for purchase');" aria-label="Click here to add product to the cart">ADD TO CART</button>
                             </div>
                         </div>
                     </div>
@@ -153,18 +157,18 @@
                 </div>
                     <div class="hot-item-box-container">
                         <div class="hot-item-col">
-                            <div>                
+                            <div>
                             <h3>Glossie</h3>
                             <ul class="product-size">
                                 <li class="product-size-name">SIZE</li>
-                                <li>XS</li>
-                                <li>S</li>
-                                <li>M</li>
+                                <li aria-label="Click here to select size extra small">XS</li>
+                                <li aria-label="Click here to select size small">S</li>
+                                <li aria-label="Click here to select size small">M</li>
                             </ul>
-                            <p id="hot-item-price">£25</p>
+                            <p id="hot-item-price"  aria-label="It is the price of glossie">£25</p>
                             </div>
                             <div class="index-cart">
-                                <button class="cart-button" type="button" onclick="alert('Added to cart, thank you for purchase');">ADD TO CART</button>
+                                <button class="cart-button" type="button" onclick="alert('Added to cart, thank you for purchase');" aria-label="Click here to add product to the cart">ADD TO CART</button>
                             </div>
                         </div>
                     </div>
@@ -180,14 +184,14 @@
                             <h3>Custom make</h3>
                             <ul class="product-size">
                                 <li class="product-size-name">SIZE</li>
-                                <li>XS</li>
-                                <li>S</li>
-                                <li>M</li>
+                                <li aria-label="Click here to select size extra small">XS</li>
+                                <li aria-label="Click here to select size small">S</li>
+                                <li aria-label="Click here to select size small">M</li>
                             </ul>
-                            <p id="hot-item-price">£38</p>
+                            <p id="hot-item-price" aria-label="It is the price of customer make edition on requested">£38</p>
                             </div>
                             <div class="index-cart">
-                                <button class="cart-button" type="button" onclick="alert('Added to cart, thank you for purchase');">ADD TO CART</button>
+                                <button class="cart-button" type="button" onclick="alert('Added to cart, thank you for purchase');" aria-label="Click here to add product to the cart">ADD TO CART</button>
                             </div>
                         </div>
                     </div>
