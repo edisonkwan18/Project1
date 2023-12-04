@@ -32,8 +32,8 @@
 
 	/* Tablet 768px */
 	/* Remember to calculate --tab-hero-pad (100vw -w)/2  */
-	--tab-hero-w: 64vw;
-	--tab-hero-pad:	calc(36vw/2);
+	--tab-hero-w: 96vw;
+	--tab-hero-pad:	calc(4vw/2);
 
 	/* Laptop 768px */
 	/* Remember to calculate --lap-hero-pad (100vw -w)/2  */
@@ -334,6 +334,7 @@ ul {
 	text-align: center;
 	font-family: 'Lobster', sans-serif;
 	font-size: 3em;
+	padding: 1vh 0;
 }
 
 .product-container {
@@ -524,16 +525,6 @@ main {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-/* Index.html */
-/* Navbar Section */
-/* header {
-	height: var(--tab-nav-h);
-} */
-
-
-/* Main Section */
-/* Hero slides */
-
 #hero {
 	padding: 0 var(--tab-hero-pad);
 }
@@ -556,6 +547,23 @@ main {
 
 .item {
 	width: var(--tab-hero-w);
+}
+
+#hot-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.hot-item-box-container { 
+	width: 48%;
+	right: 0.54em;
+}
+	
+#hot-product {
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: space-around;
+	align-content: space-around;
 }
 
 }
