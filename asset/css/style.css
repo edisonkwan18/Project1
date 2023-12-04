@@ -522,6 +522,15 @@ ul {
     color: #ffffff;
 }
 
+#wear-vid video {
+	width: 100%;
+	height: auto;
+	max-width: 720px;
+}
+
+
+
+
 /* ________________________________End of instruction.html____________________________ */
 
 
