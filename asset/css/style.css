@@ -107,7 +107,7 @@ header {
 }
 
 .navbar span {
-	/* aboslute position to make the "=" fix in a relative position */
+	/* absolute position to make the "=" fix in a relative position */
 	position: absolute;
 	left: 0.6em;
 	/* Align two spans together and put second span in different setting[span:nth-child(3)], calc tag will calculate the target location */
@@ -120,7 +120,7 @@ header {
 	pointer-events: none;
 	transition: transform 0.3s ease-in-out, top 0.3s ease-in-out 0.3s;
 }
-/* The second span is the third child component in "navber" element so it is nth-child(3) */
+/* The second span is the third child component in "navbar" element so it is nth-child(3) */
 .navbar span:nth-child(3) {
 	top: calc(50% + 0.2em);
 }
@@ -128,7 +128,7 @@ header {
 	width: 0;
 	/* Hiding ul behind the circle of navbar before clicking toggle */
 	overflow: hidden;
-	/* Makeing font no wrap */
+	/* Making font no wrap */
 	white-space: nowrap;
 	transition: all 1s;
 }
