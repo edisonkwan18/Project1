@@ -21,12 +21,13 @@
     <!-- Header -->
     <header>
         <div class="navbar">
-			<input type="checkbox" />
+            <!-- Click the checkbox to extend the navbar -->
+			<input type="checkbox" aria-label="Click here to extend the navigation bar">
 			<span></span>
 			<span></span>
 			<ul>
-				<li><a href="javascript:void(0)">Wearing Instruction</a></li>
-				<li><a href="javascript:void(0)">Product</a></li>
+				<li><a href="instruction.html" aria-label="Click here to visit wearing instruction page">Wearing Instruction</a></li>
+				<li><a href="javascript:void(0)" aria-label="Click here to visit product page">Product</a></li>
                 <li></li>
                 <li></li>
 			</ul>
@@ -34,7 +35,7 @@
 
         <a href="index.html">
             <h1 class="hidden-heading">Nico Nail</h1>
-            <img src="asset\images\nico-logo.png" id="logo"/>
+            <img src="asset\images\nico-logo.png" id="logo" alt="the image of Nico Nail logo" aria-label="Click here to visit product page"/>
         </a>
         
     </header>
@@ -52,10 +53,10 @@
             <input type="radio" name="pic" id="pic4"/>
                         
             <div class="labels">
-                <label for="pic1"></label>
-                <label for="pic2"></label>
-                <label for="pic3"></label>
-                <label for="pic4"></label>
+                <label for="pic1" aria-label="Click here to review image 1"></label>
+                <label for="pic2" aria-label="Click here to review image 2"></label>
+                <label for="pic3" aria-label="Click here to review image 3"></label>
+                <label for="pic4" aria-label="Click here to review image 4"></label>
             </div>
             
             <!-- Hero image -->
@@ -63,8 +64,8 @@
             <ul class="list">
                 <!-- image 1 -->
                 <li class="item">
-                    <a href="###">
-                        <img src="asset\images\hero-Wear-in.webp" style="height: 100%; width: 100%;"/>
+                    <a href="instruction.html" aria-label="Click here to visit wearing instruction page">
+                        <img src="asset\images\hero-Wear-in.webp" style="height: 100%; width: 100%;" alt="A Lady in dress shows her beautiful nail"/>
                     </a>
                 </li>
                 <!-- image 2 -->
