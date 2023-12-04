@@ -22,7 +22,7 @@
 	--mob-nav-span-w: 1.5em;
 	--mob-nav-span-h: 0.25em;
 	/* width for hot item */
-	--min-width: 332px;
+	--min-width: 365px;
 	--max-width: 400px;
 	/* width for hot item image */
 	--hot-item-img-w: var(--hot-item-img-h);
@@ -382,8 +382,11 @@ ul {
 }
 
 .hot-item-box-container h3 {
+	position: absolute;
+	white-space: nowrap	;
+	top: 0.1em;
 	font-size: 1.5em;
-	margin-bottom: 0.4em;
+	margin-bottom: 0.2em;
 	font-family: 'Black Ops One', sans-serif;
 	color: #6AC8D8;	
 }
@@ -395,7 +398,7 @@ ul {
 
 .product-size {
 	display:flex;
-	margin-top: 1em;
+	margin-top: 1.2em;
 	font-size: 1.5em;
 }
 
@@ -419,13 +422,37 @@ ul {
 	position: absolute;
 	color: #ff7b00;
 	font-size: 2.5em;
-	bottom: 0.7em;
+	bottom: 1em;
 }
 
 .index-cart{
 	position: absolute;
 	bottom: 0.5em;
 	display:flex;
+}
+
+.cart-button {
+	display: inline-block;
+	padding: 5px 15px;
+	font-size: 12px;
+	cursor: pointer;
+	text-align: center;   
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 3px #999;
+	margin-left: 4.5vw;
+}
+
+.cart-button:hover {background-color: #3e8e41}
+
+.cart-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /* Footer section */
