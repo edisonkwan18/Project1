@@ -21,16 +21,14 @@
 	--mob-nav-input: 2.5em;
 	--mob-nav-span-w: 1.5em;
 	--mob-nav-span-h: 0.25em;
-	/* width for hot item */
+		/* width for hot item */
 	--min-width: 365px;
 	--max-width: 400px;
 	/* width for hot item image */
 	--hot-item-img-w: var(--hot-item-img-h);
 	--hot-item-img-h: 15vh;
 	
-	
-
-	/* Tablet 768px */
+		/* Tablet 768px */
 	/* Remember to calculate --tab-hero-pad (100vw -w)/2  */
 	--tab-hero-w: 96vw;
 	--tab-hero-pad:	calc(4vw/2);
@@ -40,13 +38,20 @@
 	--lap-hero-w: 48vw;
 	--lap-hero-pad:	calc(52vw/2);
 
-  }
+	/* ___________________________________________________________ */
+	/* Generic */
+	--bg-color:#FFFAFA ;
+	--so-color:#FF7000 ;
+
+
+ }
 
 /* General styles */
 body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	background-color: var(--bg-color);
 	}
 
 .hidden-heading {
@@ -389,6 +394,7 @@ ul {
 	font-size: 1.5em;
 	margin-bottom: 0.2em;
 	font-family: 'Black Ops One', sans-serif;
+	font-weight: bolder;
 	color: #6AC8D8;	
 }
 
@@ -415,6 +421,8 @@ ul {
 
 .product-size-name{
 	padding-right: 0.5em !important;
+	font-weight: bold;
+	color: #f80000;
 }
 
 
@@ -423,6 +431,8 @@ ul {
 	color: #ff7b00;
 	font-size: 2.5em;
 	bottom: 1em;
+	font-family: 'Lobster', sans-serif;
+	font-weight: bold;
 }
 
 .index-cart{
@@ -468,12 +478,12 @@ ul {
 #social-networks i {
     font-size: 4em;
     padding: 5%;
-    color: rgb(5, 248, 106);
+    color: var(--so-color);
 }
 
 .bot-footer {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	height: 3em;
 	align-content: center;
 	font-family: 'Black Ops One', sans-serif;
