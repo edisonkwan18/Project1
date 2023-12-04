@@ -65,6 +65,10 @@ body {
 	vertical-align: sub;
 }
 
+.vert-bot {
+	vertical-align: bottom;
+}
+
 /* header */
 header {
     background: url("../images/abstract-back.webp") no-repeat center center/cover;
@@ -391,7 +395,7 @@ ul {
 
 .product-size {
 	display:flex;
-	margin-top: 1.2em;
+	margin-top: 1em;
 	font-size: 1.5em;
 }
 
@@ -415,12 +419,13 @@ ul {
 	position: absolute;
 	color: #ff7b00;
 	font-size: 2.5em;
-	bottom: 0.6em;
+	bottom: 0.7em;
 }
 
 .index-cart{
 	position: absolute;
 	bottom: 0.5em;
+	display:flex;
 }
 
 /* Footer section */
