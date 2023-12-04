@@ -415,7 +415,6 @@ ul {
 
 .product-size-name{
 	padding-right: 0.5em !important;
-	/* font-size: 1.1em; */
 }
 
 
@@ -459,16 +458,23 @@ ul {
 /* Footer section */
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0 10px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+	bottom: 0;
 }
 
 #social-networks i {
-    font-size: 160%;
+    font-size: 4em;
     padding: 5%;
-    color: #3a3a3a;
+    color: rgb(5, 248, 106);
+}
+
+.bot-footer {
+	text-align: center;
+	font-size: 1em;
+	height: 3em;
 }
 
 
