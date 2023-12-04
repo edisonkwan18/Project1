@@ -38,13 +38,15 @@
 	--lap-hero-w: 48vw;
 	--lap-hero-pad:	calc(52vw/2);
 
-	/* ___________________________________________________________ */
+	/* _________________________________________________________________________________________________ */
 	/* Generic */
 	--bg-color:#FFFAFA ;
 	--so-color:#FF7000 ;
 
 
  }
+
+ /* _______________________________End of variable setting_________________________________ */
 
 /* General styles */
 body {
@@ -61,18 +63,7 @@ body {
 .gap{
 	gap: 3vh;
 }
-
-.vert-mid {
-	vertical-align: middle;
-}
-
-.vert-sub {
-	vertical-align: sub;
-}
-
-.vert-bot {
-	vertical-align: bottom;
-}
+/* _____________________________________________________Index.html _________________________________________________________________ */
 
 /* header */
 header {
@@ -91,19 +82,22 @@ header {
 
 .navbar,
 .navbar ul {
-	/* 三个元素都需要弹性布局 写一块 */
+	/* Setting to flex */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 .navbar {
-	/* 相对定位 */
+	/* relative position */
 	position: relative;
 	padding: 5px;
 	border-radius: 50px;
 	background-color: #e19eae;
 	top: -1.8em;	
 }
+
+/* Input checkbox is the toggle to turn the box on and off */
 .navbar input {
 	width: var(--mob-nav-input);
 	height: var(--mob-nav-input);
@@ -111,36 +105,35 @@ header {
 	cursor: pointer;
 	opacity: 0;
 }
+
 .navbar span {
-	/* 绝对定位 */
+	/* aboslute position to make the "=" fix in a relative position */
 	position: absolute;
 	left: 0.6em;
-	/* 现将两条线都放到一起 然后单独设置第二条线的位置 calc方法可以自动计算数值 */
+	/* Align two spans together and put second span in different setting[span:nth-child(3)], calc tag will calculate the target location */
 	top: calc(50% - 0.4em);
 	width: var(--mob-nav-span-w);
 	height: var(--mob-nav-span-h);
 	border-radius: 15px;
 	background-color: #2A2522;
-	/* 这里在解决一个问题 现在span覆盖着复选框 我们鼠标放到span点不中复选框  写这个属性就能解决这个问题 即便鼠标放到span上点击也能够选中或者未选中复选框*/
+	/* span has covered the checkbox so it makes invisible to pointer in order to ensure the click action */
 	pointer-events: none;
-	/* 收回来的时候过渡刚好相反 */
 	transition: transform 0.3s ease-in-out, top 0.3s ease-in-out 0.3s;
 }
-/* 因为第二条线在navbar这个元素内的第三个位置 所以这里写3 */
+/* The second span is the third child component in "navber" element so it is nth-child(3) */
 .navbar span:nth-child(3) {
-	top: calc(50% + 0.2em	);
+	top: calc(50% + 0.2em);
 }
 .navbar ul {
 	width: 0;
-	/* 溢出隐藏 */
+	/* Hiding ul behind the circle of navbar before clicking toggle */
 	overflow: hidden;
-	/* 现在这个盒子是扁的 待会解决这个问题 */
-	/* 这个问题出现的原因是 文字被换行显示了 两个汉字竖着排列了 就撑大盒子了 */
-	/* 这个属性可以让文字就在一行排列 不换行 */
+	/* Makeing font no wrap */
 	white-space: nowrap;
-	transition: all 0.5s;
+	transition: all 1s;
 }
 .navbar ul li {
+	/* Reduce the bullet point in list */
 	list-style: none;
 	margin: 0 15px;
 }
@@ -148,8 +141,8 @@ header {
 	/* remove underline of hyderlink */
 	text-decoration: none;
 	font-size: 2em;
-	font-weight: 700;
-	color: #333;
+	font-weight: 700; 
+	color: blue;
 	font-family: 'Bree Serif', serif;
 }
 .navbar ul li a:hover {
@@ -159,6 +152,8 @@ header {
 .navbar input:checked ~ ul {
 	width: auto;
 }
+
+/* Animation to span to transform from "=" to "x" */
 .navbar input:checked ~ span:nth-child(2) {
 	top: calc(50% - 2px);
 	transform: rotate(-45deg);
@@ -235,7 +230,7 @@ main {
 	display: none;	
 }
 
-/* 按钮样式 */
+/* Design of button in hero sliDe */
 .labels label {
 	width: 1rem;
 	height: 1rem;
@@ -342,6 +337,7 @@ ul {
 	padding: 1vh 0;
 }
 
+/* The box design of the whole product including photo and product detail */
 .product-container {
 	display: flex;
 	width: 75%;
@@ -372,6 +368,7 @@ ul {
 	margin: 0.6em;
 }
 
+/* setting responsive height and width of product image */
 .hot-item-img > img {
 	height: var(--hot-item-img-h);
 	width: var(--hot-item-img-w);
@@ -435,12 +432,14 @@ ul {
 	font-weight: bold;
 }
 
+/* The div for shopping cart */
 .index-cart{
 	position: absolute;
 	bottom: 0.5em;
 	display:flex;
 }
 
+/* style of shopping cart button */
 .cart-button {
 	display: inline-block;
 	padding: 5px 15px;
@@ -491,7 +490,7 @@ ul {
 }
 
 
-/* -------------------------------------------------------------------------------------------- */
+/* -----------------------------------Media query--------------------------------------------------------- */
 
 /* Media query: mobile landscape (height:500px and down) */
 @media only screen and (max-height: 500px) {
