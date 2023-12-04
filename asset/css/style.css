@@ -489,6 +489,50 @@ ul {
 	font-family: 'Black Ops One', sans-serif;
 }
 
+/* ________________________________End of index.html____________________________ */
+
+/* ________________________________Start of instruction.html____________________________ */
+
+#hero {
+    height: 30vh;
+    width: 100%;
+	background-image: url("../images/hero-in.webp");
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+    position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .6);
+    font-size: 150%;
+    position: absolute;
+    bottom: 28px;
+    width: 50%;
+    min-height: 10vh;
+    padding-top: 29px;
+	padding-bottom: 13px;
+    padding-left: 28px;
+}
+
+#cover-text>h2,
+#cover-text>h3 {
+	position: relative;
+    color: #ffffff;
+}
+
+#wear-vid video {
+	width: 100%;
+	height: auto;
+	max-width: 720px;
+}
+
+
+
+
+/* ________________________________End of instruction.html____________________________ */
+
 
 /* -----------------------------------Media query--------------------------------------------------------- */
 
@@ -546,16 +590,7 @@ main {
 	height: 6.25em;
 	width: 6.25em;
 }
-
-/* ________________________________End of index.html____________________________ */
-
-/* ________________________________Start of instruction.html____________________________ */
-
-/* ________________________________End of instruction.html____________________________ */
-
-
 }
-/* -------------------------------------------------------------------------------------------- */
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
