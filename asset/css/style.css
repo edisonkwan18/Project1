@@ -10,7 +10,7 @@
 :root {
 	/* Mobile Landscape */
 	--mob-ls-nav-h: 10vh;
-	--mob-ls-nav-input: 2.5em;
+	--mob-ls-nav-input: 3em;
 	--mob-ls-nav-span-w: 1.5em;
 	--mob-ls-nav-span-h: 0.25em;
 	--mob-ls-hot-item-img-w: 15vw;
@@ -97,7 +97,7 @@ header {
 	padding: 5px;
 	border-radius: 50px;
 	background-color: #e19eae;
-	top: -0.8em;
+	top: -1.8em;	
 }
 .navbar input {
 	width: var(--mob-nav-input);
@@ -140,31 +140,31 @@ header {
 	margin: 0 15px;
 }
 .navbar ul li a {
-	/* 取消下划线 */
+	/* remove underline of hyderlink */
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: 700;
 	color: #333;
+	font-family: 'Bree Serif', serif;
 }
 .navbar ul li a:hover {
-	color: #e19eae;
+	color: rgb(255, 72, 0);
 }
-/* :checked是当选中的复选框的时候 ~ 是兄弟选择器 查找同一级的ul */
+/* The size after input checkbox is checked */
 .navbar input:checked ~ ul {
-	width: 350px;
+	width: auto;
 }
 .navbar input:checked ~ span:nth-child(2) {
 	top: calc(50% - 2px);
 	transform: rotate(-45deg);
-	background-color: #FAB19F;
-	/* 现在速度太快了 加个过渡 */
-	/* 这是先执行top 然后.3s后执行transform */
+	background-color: #3cff00;
+	/* Execute top first and then execute transform */
 	transition: top 0.3s ease-in-out, transform 0.3s ease-in-out 0.3s;
 }
 .navbar input:checked ~ span:nth-child(3) {
 	top: calc(50% - 2px);
 	transform: rotate(45deg);
-	background-color: #FAB19F;
+	background-color: #3cff00;
 	transition: top 0.3s ease-in-out, transform 0.3s ease-in-out 0.3s;
 }
 
@@ -406,7 +406,6 @@ ul {
 
 .product-size > li {
 	padding-right: 0.4em;
-	font-family: 'Bree Serif', serif;
 }
 
 
