@@ -406,6 +406,7 @@ ul {
 
 .product-size > li {
 	padding-right: 0.4em;
+	font-family: 'Bree Serif', serif;
 }
 
 
@@ -473,8 +474,10 @@ ul {
 
 .bot-footer {
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.5em;
 	height: 3em;
+	align-content: center;
+	font-family: 'Black Ops One', sans-serif;
 }
 
 
@@ -574,6 +577,7 @@ main {
 .hot-item-box-container { 
 	width: 48%;
 	right: 0.54em;
+	margin-top: 0.5em;
 }
 	
 #hot-product {
@@ -582,5 +586,6 @@ main {
 	justify-content: space-around;
 	align-content: space-around;
 }
+
 
 }
