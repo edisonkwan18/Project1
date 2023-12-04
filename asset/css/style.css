@@ -573,34 +573,8 @@ main {
 /* Media query: Laptop and larger (1024px and up) */
 @media screen and (min-width: 1024px) {
 
-	/* Index.html */
-	/* Navbar Section */
-
 	/* Main Section */
 	/* Hero slides */
 	
-	#hero {
-		padding: 0 var(--lap-hero-pad);
-	}
 	
-	.carousel_map {
-		width: var(--lap-hero-w);
-	}
-	
-	.list {
-		width: calc(5 * var(--lap-hero-w));
-	}
-	
-	@keyframes move {
-		0% {transform: translate(calc(0 * var(--lap-hero-w)));}
-		25% {transform: translate(calc(-1 * var(--lap-hero-w)));}
-		50% {transform: translate(calc(-2 * var(--lap-hero-w)));}
-		75% {transform: translate(calc(-3 * var(--lap-hero-w)));}
-		100% {transform: translate(calc(-4 * var(--lap-hero-w)));}
-	}
-	
-	.item {
-		width: var(--lap-hero-w);
-	}
-	
-	}
+	} */
