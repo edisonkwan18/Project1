@@ -43,7 +43,6 @@
 	--bg-color:#FFFAFA ;
 	--so-color:#FF7000 ;
 
-
  }
 
  /* _______________________________End of variable setting_________________________________ */
@@ -62,6 +61,10 @@ body {
 
 .gap{
 	gap: 3vh;
+}
+
+.uppercase {
+	text-transform: uppercase;
 }
 /* _____________________________________________________Index.html _________________________________________________________________ */
 
@@ -120,10 +123,12 @@ header {
 	pointer-events: none;
 	transition: transform 0.3s ease-in-out, top 0.3s ease-in-out 0.3s;
 }
+
 /* The second span is the third child component in "navbar" element so it is nth-child(3) */
 .navbar span:nth-child(3) {
 	top: calc(50% + 0.2em);
 }
+
 .navbar ul {
 	width: 0;
 	/* Hiding ul behind the circle of navbar before clicking toggle */
@@ -132,11 +137,13 @@ header {
 	white-space: nowrap;
 	transition: all 1s;
 }
-.navbar ul li {
+
+navbar ul li {
 	/* Reduce the bullet point in list */
 	list-style: none;
 	margin: 0 15px;
 }
+
 .navbar ul li a {
 	/* remove underline of hyderlink */
 	text-decoration: none;
@@ -145,9 +152,11 @@ header {
 	color: blue;
 	font-family: 'Bree Serif', serif;
 }
+
 .navbar ul li a:hover {
 	color: rgb(255, 72, 0);
 }
+
 /* The size after input checkbox is checked */
 .navbar input:checked ~ ul {
 	width: auto;
@@ -406,11 +415,9 @@ ul {
 	font-size: 1.5em;
 }
 
-
 .product-size > li {
 	padding-right: 0.4em;
 }
-
 
 .product-size > li:hover {
 	color: #f80000;
@@ -421,7 +428,6 @@ ul {
 	font-weight: bold;
 	color: #f80000;
 }
-
 
 #hot-item-price {
 	position: absolute;
@@ -516,10 +522,17 @@ ul {
     padding-left: 28px;
 }
 
-#cover-text>h2,
-#cover-text>h3 {
+#cover-text>h2 {
 	position: relative;
     color: #ffffff;
+}
+
+#wearing > h2 {
+	font-size: 2em;
+}
+
+#wear-vid {
+	margin: 0 24px;
 }
 
 #wear-vid video {
@@ -528,8 +541,39 @@ ul {
 	max-width: 720px;
 }
 
+#how-to {
+	text-align: center;
+}
 
+#wear-instruction {
+	padding: 30px 12.5% 0px;
+}
 
+#wear-instruction > p {
+	letter-spacing: 1px;
+	line-height: 2em;
+	max-width: 80vw;
+	margin-bottom: 1em;
+}
+
+#wear-instruction > br{
+	margin-bottom: 0.5em;
+}
+
+#wear-instruction p em{
+	font-size: 160%;
+	font-weight: bold;
+}
+
+#nail-size-img {
+	height: 800px;
+    width: 100%;
+	background-image: url("../images/nail-size.png");
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+    position: relative;
+}
 
 /* ________________________________End of instruction.html____________________________ */
 
