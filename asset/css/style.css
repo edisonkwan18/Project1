@@ -473,6 +473,17 @@ ul {
   transform: translateY(4px);
 }
 
+/* Fixed icon */
+
+.fixed-icon{
+	background-color: #3e8e41;
+    position: fixed;
+    right: 0;
+    bottom: 140px;
+    border-radius: 5px 0px 1px 5px;
+    box-shadow: 1px 1px 11px 1px #a59a9a;
+}
+
 /* Footer section */
 #social-networks {
     text-align: center;
@@ -754,6 +765,5 @@ main {
 	justify-content: space-around;
 	align-content: space-around;
 }
+       }
 
-
-}
