@@ -37,7 +37,7 @@
 	/* Remember to calculate --lap-hero-pad (100vw -w)/2  */
 	--lap-hero-w: 48vw;
 	--lap-hero-pad:	calc(52vw/2);
-
+	
 	/* _________________________________________________________________________________________________ */
 	/* Generic */
 	--bg-color:#FFFAFA ;
@@ -151,6 +151,7 @@ navbar ul li {
 	font-weight: 700; 
 	color: blue;
 	font-family: 'Bree Serif', serif;
+	margin-right: 1.5vw;
 }
 
 .navbar ul li a:hover {
@@ -159,7 +160,8 @@ navbar ul li {
 
 /* The size after input checkbox is checked */
 .navbar input:checked ~ ul {
-	width: auto;
+	width: 50vw;
+	min-width: 400px;
 }
 
 /* Animation to span to transform from "=" to "x" */
@@ -703,6 +705,12 @@ main {
 
 .navbar ul li a {
 	font-size: 2em;
+}
+
+.navbar input:checked ~ ul {
+	width: 70vw;
+	max-width: 725px;
+	left: calc(-70vw /2);
 }
 
 #hero-index {
