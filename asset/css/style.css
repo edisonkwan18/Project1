@@ -478,10 +478,12 @@ ul {
 .fixed-icon{
 	background-color: #3e8e41;
     position: fixed;
-    right: 0;
+    right: 1vw;
     bottom: 140px;
     border-radius: 5px 0px 1px 5px;
     box-shadow: 1px 1px 11px 1px #a59a9a;
+	height: 10vh;
+	width: 10vw;
 }
 
 /* Footer section */
