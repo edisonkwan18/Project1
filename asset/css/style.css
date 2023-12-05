@@ -37,7 +37,7 @@
 	/* Remember to calculate --lap-hero-pad (100vw -w)/2  */
 	--lap-hero-w: 48vw;
 	--lap-hero-pad:	calc(52vw/2);
-
+	
 	/* _________________________________________________________________________________________________ */
 	/* Generic */
 	--bg-color:#FFFAFA ;
@@ -149,31 +149,33 @@ navbar ul li {
 	text-decoration: none;
 	font-size: 1.3em;
 	font-weight: 700; 
-	color: blue;
+	color: #06060a;
 	font-family: 'Bree Serif', serif;
+	margin-right: 1.5vw;
 }
 
 .navbar ul li a:hover {
-	color: rgb(255, 72, 0);
+	color: #e5a0b0;
 }
 
 /* The size after input checkbox is checked */
 .navbar input:checked ~ ul {
-	width: auto;
+	width: 50vw;
+	min-width: 400px;
 }
 
 /* Animation to span to transform from "=" to "x" */
 .navbar input:checked ~ span:nth-child(2) {
 	top: calc(50% - 2px);
 	transform: rotate(-45deg);
-	background-color: #3cff00;
+	background-color: #fff;
 	/* Execute top first and then execute transform */
 	transition: top 0.3s ease-in-out, transform 0.3s ease-in-out 0.3s;
 }
 .navbar input:checked ~ span:nth-child(3) {
 	top: calc(50% - 2px);
 	transform: rotate(45deg);
-	background-color: #3cff00;
+	background-color: #fff;
 	transition: top 0.3s ease-in-out, transform 0.3s ease-in-out 0.3s;
 }
 
@@ -256,7 +258,7 @@ input[id=pic1]:checked ~ .labels label[for=pic1],
 input[id=pic2]:checked ~ .labels label[for=pic2],
 input[id=pic3]:checked ~ .labels label[for=pic3],
 input[id=pic4]:checked ~ .labels label[for=pic4] {
-	background-color: #f80000;
+	background-color: #df8a9d;
 	border: 0.1rem solid #fff;
 }
 
@@ -401,7 +403,7 @@ ul {
 	margin-bottom: 0.2em;
 	font-family: 'Black Ops One', sans-serif;
 	font-weight: bolder;
-	color: #6AC8D8;	
+	color: #efe7e9;	
 }
 
 .hot-item-col {
@@ -431,7 +433,7 @@ ul {
 
 #hot-item-price {
 	position: absolute;
-	color: #ff7b00;
+	color: #df8a9d;
 	font-size: 2.5em;
 	bottom: 1em;
 	font-family: 'Lobster', sans-serif;
@@ -455,7 +457,7 @@ ul {
 	text-decoration: none;
 	outline: none;
 	color: #fff;
-	background-color: #4CAF50;
+	background-color: #e5a0b0;
 	border: none;
 	border-radius: 15px;
 	box-shadow: 0 3px #999;
@@ -469,6 +471,52 @@ ul {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+/* Fixed icon */
+
+.fixed-icon-a {
+	background-color: #e19eae;
+    position: fixed;
+    right: 1vw;
+    border-radius: 5px 0px 1px 5px;
+    box-shadow: 1px 1px 5px 1px #e19eae;
+	border: #06060a;
+	height: auto;
+	bottom: 80px;
+	width: auto;
+	min-width: 60px;
+	min-height: 60px;
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.fixed-icon-a i {
+	font-size: 2.6em;
+	font-weight: bold;
+	padding: 20%;
+}
+
+.fixed-icon-b {
+	background-color: #e19eae;
+    position: fixed;
+    right: 1vw;
+    border-radius: 5px 0px 1px 5px;
+    box-shadow: 1px 1px 5px 1px #e19eae;
+	border: #06060a;
+	height: auto;
+	bottom:150px;
+	width: auto;
+	min-width: 60px;
+	min-height: 60px;
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.fixed-icon-b i {
+	font-size: 2.6em;
+	font-weight: bold;
+	padding: 20%;
 }
 
 /* Footer section */
@@ -549,7 +597,8 @@ ul {
 	padding: 30px 12.5% 0px;
 }
 
-#wear-instruction > p {
+#wear-instruction > p,
+#measure {
 	letter-spacing: 1px;
 	line-height: 2em;
 	max-width: 80vw;
@@ -563,6 +612,11 @@ ul {
 #wear-instruction p em{
 	font-size: 160%;
 	font-weight: bold;
+}
+
+#measure {
+	text-align: center;
+	margin-left: 10vw;
 }
 
 #nail-size-img {
@@ -705,6 +759,12 @@ main {
 	font-size: 2em;
 }
 
+.navbar input:checked ~ ul {
+	width: 70vw;
+	max-width: 725px;
+	left: calc(-70vw /2);
+}
+
 #hero-index {
 	padding: 0 var(--tab-hero-pad);
 }
@@ -746,6 +806,5 @@ main {
 	justify-content: space-around;
 	align-content: space-around;
 }
+       }
 
-
-}
