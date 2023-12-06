@@ -22,7 +22,7 @@
 	--mob-nav-span-w: 1.5em;
 	--mob-nav-span-h: 0.25em;
 		/* width for hot item */
-	--min-width: 300px;
+	--min-width: 100px;
 	--max-width: 400px;
 	/* width for hot item image */
 	--hot-item-img-w: var(--hot-item-img-h);
