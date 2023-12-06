@@ -330,7 +330,6 @@ ul {
 
 #hot-item{
 	position: relative;
-	/* Make main element take up any surplus space to push footer down */
 	flex: 1 0 auto;
 }
 
@@ -547,7 +546,7 @@ ul {
 
 /* ________________________________Start of instruction.html____________________________ */
 
-#hero {
+#hero-in {
     height: 30vh;
     width: 100%;
 	background-image: url("../images/hero-in.webp");
@@ -693,6 +692,27 @@ ul {
 }
 
 /* ________________________________End of contact.html____________________________ */
+
+/* ________________________________Start of product.html____________________________ */
+
+#hero-pro{
+	height: 100%;
+	width: 100%;
+}
+
+#hero-pro-img {
+    height: 50vw;
+	max-height: 70vh;
+    width: 100%;
+	background-image: url("../images/hero-coming.webp");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    position: relative;
+	top: 4px;
+}
+
+/* ________________________________End of product.html____________________________ */
 
 /* -----------------------------------Media query--------------------------------------------------------- */
 
