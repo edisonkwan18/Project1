@@ -160,8 +160,8 @@ navbar ul li {
 
 /* The size after input checkbox is checked */
 .navbar input:checked ~ ul {
-	width: 50vw;
-	min-width: 400px;
+	width: 30vw;
+	min-width: 350px;
 }
 
 /* Animation to span to transform from "=" to "x" */
@@ -182,6 +182,8 @@ navbar ul li {
 /* Logo */
 #logo{
 	z-index: 1;
+	width: auto;
+	height: auto;
 	max-height: var(--mob-nav-h);
 	position: relative;	
 	right:1vh
@@ -488,6 +490,7 @@ ul {
 	min-height: 60px;
 	max-width: 80px;
 	max-height: 80px;
+	z-index: 50;
 }
 
 .fixed-icon-a i {
@@ -510,6 +513,7 @@ ul {
 	min-height: 60px;
 	max-width: 80px;
 	max-height: 80px;
+	z-index: 50;
 }
 
 .fixed-icon-b i {
@@ -619,7 +623,7 @@ ul {
 }
 
 #nail-size-img {
-	height: 800px;
+	height: 633px;
     width: 100%;
 	background-image: url("../images/nail-size.png");
 	background-position: center center;
@@ -642,18 +646,23 @@ ul {
     padding-top: 20px;
     padding-left: 10%;
     padding-right: 10%;
+	font-family: 'Bubblegum Sans', sans-serif;
 }
 
 #contact-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, .3);
     padding: 30px;
+	border-radius: 5%;
+	font-size: 1em;
 }
 
 /* Make h2 in signUp form to color white */
 #contact-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
+	text-align: center;
+	font-size: 2em;
 }
 
 /* Make text input field transparent background, font color white and spacing */
@@ -685,10 +694,19 @@ ul {
 .submit-button{
     margin-top: 20px;
     padding: 15px 32px;
-    border-radius: 2px;
-    background-color: #454b1b;
+    border-radius: 20px;
+    background-color: #e5a0b0;
     color: #fafafa;
-    font-size: 100%;
+    font-size: 140%;
+	font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.icon-bot-b {
+	bottom: 30vh !important;
+}
+
+.icon-bot-a {
+	bottom: 18vh !important;	
 }
 
 /* ________________________________End of contact.html____________________________ */
@@ -776,14 +794,25 @@ main {
 @media screen and (min-width: 768px) {
 
 .navbar ul li a {
-	font-size: 2em;
+	font-size: 1.7em;
+	margin-right: 2.5vw;
+	margin-left: 2vw;
+}
+
+.a-margin-start {
+	margin-left: 1vw;
+}
+.a-margin-end {
+	margin-right: 5vw;
 }
 
 .navbar input:checked ~ ul {
-	width: 70vw;
+	width: 50vw;
+	min-width: 500px;
 	max-width: 725px;
-	left: calc(-70vw /2);
 }
+                 
+	/* ------------index 768----------- */
 
 #hero-index {
 	padding: 0 var(--tab-hero-pad);
@@ -826,5 +855,96 @@ main {
 	justify-content: space-around;
 	align-content: space-around;
 }
-       }
+/* --------------------instruction 768---------------- */
 
+#wearing {
+	display: flex;
+}
+
+#wearing >div {
+	padding: 0 5vw;
+}
+
+#wear-vid {
+	margin: 0;
+}
+
+.split-screen {
+	flex-direction: row; height: 100vh;
+}
+
+#wear-instruction {
+	padding: 0;
+}
+
+}
+
+/* Media query: tablets and larger (1024px and up) */
+@media screen and (min-width: 1024px) {
+
+	.navbar ul li a {
+		font-size: 2em;
+		margin-right: 2.5vw;
+		margin-left: 2vw;
+	}
+	
+	.a-margin-start {
+		margin-left: 1vw;
+	}
+	.a-margin-end {
+		margin-right: 5vw;
+	}
+	
+	.navbar input:checked ~ ul {
+		width: 60vw;
+		min-width: 500px;
+		max-width: 725px;
+	}
+
+	#contact-form {
+		font-size: 150%;
+	}
+
+/* -----------instruction 1024 -------------	 */
+
+#wear-instruction {
+	font-size: 130%;
+}
+
+}
+
+/* Media query: tablets and larger (1440px and up) */
+@media screen and (min-width: 1440px) {
+
+	.navbar ul li a {
+		font-size: 2.5em;
+		margin-right: 2.5vw;
+		margin-left: 2vw;
+}
+	
+	.a-margin-start {
+		margin-left: 1vw;
+}
+	.a-margin-end {
+		margin-right: 5vw;
+}
+	
+	.navbar input:checked ~ ul {
+		width: 70vw;
+		min-width: 500px;
+		max-width: 1000px;
+}
+	
+/* -----------instruction 1024 -------------	 */
+	#wearing {
+		padding: 3vh 10vw;
+}
+
+#wear-instruction {
+	font-size: 140%;
+}
+	#nail-size-img {
+		padding: 0 40vw;
+}
+}
+	
