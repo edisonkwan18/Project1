@@ -22,7 +22,7 @@
 	--mob-nav-span-w: 1.5em;
 	--mob-nav-span-h: 0.25em;
 		/* width for hot item */
-	--min-width: 365px;
+	--min-width: 320px;
 	--max-width: 400px;
 	/* width for hot item image */
 	--hot-item-img-w: var(--hot-item-img-h);
@@ -788,6 +788,29 @@ main {
 	height: 6.25em;
 	width: 6.25em;
 }
+}
+
+/* Media query: mobile and larger (320px and up) */
+@media only screen and (max-width: 320px) {
+.fixed-icon-a {
+	bottom: 47px;
+	right:5vw;
+	min-width: 40px;
+	min-height: 40px;
+}
+	
+.fixed-icon-a i ,
+.fixed-icon-b i {
+	font-size: 1.4em;
+}
+	
+.fixed-icon-b {
+	bottom:90px;
+	right:5vw;
+	min-width: 40px;
+	min-height: 40px;
+}
+
 }
 
 /* Media query: tablets and larger (768px and up) */
