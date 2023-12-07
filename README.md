@@ -133,7 +133,19 @@ The footer includes:
 
 A favicon has been included and each page has a title of my app name \"Niconail\".
 
+### The landing page image
 
+  - The landing page includes a animation slide as a call to action.
+  - User can click on the image and redirect to other pages.
+  - There are 4 circle in the middle of bottom. User can click on it to select the image they want
+
+ ![Landing Page Image 1](asset/document/hero-slide-1.png)
+
+ ![Landing Page Image 2](asset/document/hero-slide-2.png)
+
+ ![Landing Page Image 3](asset/document/hero-slide-3.png)
+
+ ![Landing Page Image 4](asset/document/hero-slide-4.png)
 
 
 
