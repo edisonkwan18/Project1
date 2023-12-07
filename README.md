@@ -30,6 +30,12 @@ For the use of color, I utilized Huemint.com to design a series of color codes u
 ![Original Color scheme](asset/document/color-code.png)
 **Credit:Huemint.com** [Huemint](https://huemint.com/)
 
+## Wireframes
+
+Low-fi wireframes were created using **Uizard**
+
+**Credit:Uizard** [Uizard](https://app.uizard.io/)
+
 
 
 
