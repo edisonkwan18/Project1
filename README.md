@@ -11,11 +11,11 @@ Live link can be found here - [Niconail](https://edisonkwan18.github.io/Project1
 
 ## Contents
 
-[Site Owner Goals](# Site Owner Goals)
+[Site Owner Goals](#site-owner-goals)
 
--[Our Unique Offerings:](# Our-Unique-Offerings:)
+-[Our Unique Offerings:](#our-unique-offerings:)
 
-[User Stories/Goals](# User-Stories/Goals)
+[User Stories/Goals](#user-stories/goals)
 
 -[Target Audience](# Target-Audience)
 
