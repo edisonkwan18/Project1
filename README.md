@@ -107,6 +107,31 @@ Low-fi wireframes were created using **Uizard**
 
  </details>
 
+ ## Features
+
+The existing features provide the following project requirements:
+
+### Project Name
+
+<img src="asset/document/project-name.png">
+
+The project name is displayed consistently at the top of all pages.
+
+### Footer
+
+<img src="asset/document/footer.png">
+
+The footer is displayed at the bottom of all pages. It has been styled at the bottom. All footer links open in a blank new tab
+
+The footer includes:
+- Photos and links of social media: Facebook, X, Youtube, Instagram
+- Copyright statement
+
+### Favicon and page titles
+
+<img src="asset/document/favicon.png">
+
+A favicon has been included and each page has a title of my app name \"Niconail\".
 
 
 
