@@ -9,16 +9,6 @@ Live link can be found here - [Niconail](https://edisonkwan18.github.io/Project1
 ### Am I Responsive ?
 [Image Source - Am I Responsive](https://ui.dev/amiresponsive?url=https://edisonkwan18.github.io/Project1)
 
-## Contents
-
-[Site Owner Goals](#site-owner-goals)
-
--[Our Unique Offerings:](#our-unique-offerings:)
-
-[User Stories/Goals](#user-stories/goals)
-
--[Target Audience](# Target-Audience)
-
 ## Site Owner Goals
 ### Our Unique Offerings:
 
