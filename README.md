@@ -163,6 +163,23 @@ A favicon has been included and each page has a title of my app name \"Niconail\
 
 ![Landing Page Image 4](asset/document/hero-slide-4.png)
 
+### Product promotion
+
+- A part of hot selling items will appear
+- User can select the size and click "ADD TO CART" button
+
+![Hot selling item](asset/document/hot-item.png)
+
+**When user put the cursor hover on the size, the color will turn into red**
+
+![Cursor hover](asset/document/hot-item-hover.png)
+
+**After clicked on "ADD TO CART" button, an alert will appear in order to notice the user**
+
+![Cursor hover](asset/document/cart-alert.png)
+
+
+
 
 
 
