@@ -133,19 +133,35 @@ The footer includes:
 
 A favicon has been included and each page has a title of my app name \"Niconail\".
 
+### Navigation bar (Navbar)
+- A pink circle with black "=" sign in the middle as a toggle to switch on.
+- Logo of Niconail on the right.
+
+**There are another version after toggle is on.**
+
+#### Navigation bar : Before
+
+![Navigation bar Image ](asset/document/navbar-before.png)
+
+#### Navigation bar : After
+
+![Navigation bar Image ](asset/document/navbar-after.png)
+
+**After the toggle is on, the pink circle will be extend. A Navbar appeared with 3 tags: Home, Working Instruction and Product.**
+
 ### The landing page image
 
-  - The landing page includes a animation slide as a call to action.
-  - User can click on the image and redirect to other pages.
-  - There are 4 circle in the middle of bottom. User can click on it to select the image they want
+- The landing page includes a animation slide as a call to action.
+- User can click on the image and redirect to other pages.
+- There are 4 circle in the middle of bottom. User can click on it to select the image they want
 
- ![Landing Page Image 1](asset/document/hero-slide-1.png)
+![Landing Page Image 1](asset/document/hero-slide-1.png)
 
- ![Landing Page Image 2](asset/document/hero-slide-2.png)
+![Landing Page Image 2](asset/document/hero-slide-2.png)
 
- ![Landing Page Image 3](asset/document/hero-slide-3.png)
+![Landing Page Image 3](asset/document/hero-slide-3.png)
 
- ![Landing Page Image 4](asset/document/hero-slide-4.png)
+![Landing Page Image 4](asset/document/hero-slide-4.png)
 
 
 
