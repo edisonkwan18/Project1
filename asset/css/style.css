@@ -837,30 +837,6 @@ main {
                  
 	/* ------------index 768----------- */
 
-#hero-index {
-	padding: 0 var(--tab-hero-pad);
-}
-
-.carousel_map {
-	width: var(--tab-hero-w);
-}
-
-.list {
-	width: calc(5 * var(--tab-hero-w));
-}
-
-@keyframes move {
-	0% {transform: translate(calc(0 * var(--tab-hero-w)));}
-	25% {transform: translate(calc(-1 * var(--tab-hero-w)));}
-	50% {transform: translate(calc(-2 * var(--tab-hero-w)));}
-	75% {transform: translate(calc(-3 * var(--tab-hero-w)));}
-	100% {transform: translate(calc(-4 * var(--tab-hero-w)));}
-}
-
-.item {
-	width: var(--tab-hero-w);
-}
-
 #hot-item {
 	display: flex;
 	flex-direction: column;
