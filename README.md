@@ -21,3 +21,27 @@ Embrace individuality, celebrate creativity, and redefine your nail art journey 
 ## User Stories/Goals
 ### Target Audience 
 My target customer base is diverse, encompassing individuals of all ages and genders. We offer customized styles to meet specific preferences, tailoring unique nail designs for you. With the non-toxic and safe nature of press-on nails, they can be easily removed at any time, even making them suitable for use by pregnant women and children.
+
+## Design
+
+For the use of color, I utilized Huemint.com to design a series of color codes using the color pink (#ebcbe7) for a color frame. However, later on, the client made adjustments to incorporate her preferred color scheme.
+
+![Capture from Huemint.com 1](asset/document/color-code-capture.png)
+![Original Color scheme](asset/document/color-code.png)
+Credit:Huemint.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
