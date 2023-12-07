@@ -28,14 +28,76 @@ For the use of color, I utilized Huemint.com to design a series of color codes u
 
 ![Capture from Huemint.com 1](asset/document/color-code-capture.png)
 ![Original Color scheme](asset/document/color-code.png)
-**Credit:Huemint.com** [Huemint](https://huemint.com/)
+**Credit:** [Huemint](https://huemint.com/)
 
 ## Wireframes
 
 Low-fi wireframes were created using **Uizard**
 
-**Credit:Uizard** [Uizard](https://app.uizard.io/)
+**Credit:* [Uizard](https://app.uizard.io/)
+ <details>
+    <summary>Mobile Wireframe</summary>
+   
+#### Index  
+![Mobile Wireframe](asset/document/wire-mob-index.png)
 
+#### Wearing Instruction
+![Mobile Wireframe](asset/document/wire-mob-Instruction.png)
+
+#### Contact
+![Mobile Wireframe](asset/document/wire-mob-contact.png)
+
+#### Product - It is coming soon
+
+![Mobile Wireframe](asset/document/wire-mob-product.png)
+
+ </details>
+
+ <details>
+ <summary>Mobile Mockup</summary>
+   
+#### Index  
+![Mobile Wireframe](asset/document/mock-mob-index.png)
+
+#### Wearing Instruction
+![Mobile Wireframe](asset/document/mock-mob-instruction.png)
+
+#### Contact
+![Mobile Wireframe](asset/document/mock-mob-contact.png)
+
+#### Product - It is coming soon
+
+![Mobile Wireframe](asset/document/mock-desk-product.png)
+
+ </details>
+
+ <details>
+
+ <summary>Desktop Wireframes</summary>
+ 
+#### Index  
+![Desktop Wireframe](asset/document/mock-mob-index.png)
+
+#### Wearing Instruction
+![Desktop Wireframe](asset/document/mock-mob-instruction.png)
+
+#### Contact
+![Desktop Wireframe]()
+
+#### Product - It is coming soon
+![Desktop Wireframe]()
+
+ </details>
+
+ <details>
+  <summary>Desktop Mockup</summary>
+   
+![Desktop Wireframe](assets/docs/readme-images/larger-screen-layout2.webp)
+![Desktop Wireframe](assets/docs/readme-images/larger-screen-layout.webp)
+![Desktop Wireframe](assets/docs/readme-images/larger-screen-layout.webp)
+![Desktop Wireframe](assets/docs/readme-images/larger-screen-layout.webp)
+
+ </details>
 
 
 
