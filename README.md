@@ -237,6 +237,35 @@ The Landing page includes:
 
 <img src="asset/document/contact-result.png">
 
+### Product page (product.html)
+**It is under development. Coming soon**
+
+<img src="asset/document/product.png">
+
+## Future Feature
+
+
+## Languages
+
+During the development phase, we leveraged a comprehensive stack of technologies to ensure a robust and efficient web application. **HTML** served as the backbone for structuring the content and layout of our web pages, allowing us to define elements and organize information effectively.
+
+**CSS** played a crucial role in enhancing the visual appeal and user experience of our platform. With CSS, we applied styles, customized layouts, and ensured a consistent design language throughout the application, providing an engaging interface for our users.
+
+### Frameworks/Libraries/Tools:
+
+Google Font - It provide more fonts to use
+Fontawesome - It provide more icons
+
+## Tools and Technologies
+
+[GitHub](https://github.com/) - Stores the repository for this project so that it can be contributed to by all members of the team. A number of github tools were also used to aid Agile development.
+
+[git](https://git-scm.com/) - Controlled the building of this project in a series of versions which can be tracked.
+
+[Visual Studio Code](https://code.visualstudio.com/) - The editor in which this project was built. 
+
+
+
 
 
 
