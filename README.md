@@ -198,6 +198,44 @@ User can ask us and tell us what they want by submitting the contact us form.
 
 ![Contact us form](asset/document/contact-us-form.png)
 
+## Screen shot of the pages
+### Landing page (index.html)
+
+<img src="asset/document/index.png">
+
+The Landing page includes:
+- 4 Landing page images to guide user to different pages
+- 4 Static images of hot selling item
+- 4 product information
+- Button "ADD TO CART"
+
+### Wearing Instruction page (instruction.html)
+
+<img src="asset/document/instruction.png">
+
+The Landing page includes:
+- Static images of nail polish shelf
+- A text "Wearing Instruction" represent the page located
+- A video of wearing instruction
+- A statement of wearing instruction in step-by-step
+- Static images of nail size measurement guide
+
+### Contact us page (contact.html)
+
+<img src="asset/document/contact.png">
+
+The Landing page includes:
+- Static images of "WE HEAR YOU" at the background
+- A title of "Let's talk to us" with a white "Plane" sign on the left
+- 3 input text field with First name, Last Name
+- User can only select one of the type of comment: General Enquiry or Complain
+- Static images of nail size measurement guide
+- A text field for user to share their thought
+- A button "Let's tell us!" to submit the form
+
+**It is the result after submission of the form**
+
+<img src="asset/document/contact-result.png">
 
 
 
