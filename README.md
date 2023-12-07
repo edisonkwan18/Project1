@@ -145,7 +145,7 @@ A favicon has been included and each page has a title of my app name \"Niconail\
 
 #### Navigation bar : After
 
-![Navigation bar Image ](asset/document/navbar-after.png)
+![Navigation bar Image ](asset/document/navbar-after-v1.png)
 
 **After the toggle is on, the pink circle will be extend. A Navbar appeared with 3 tags: Home, Working Instruction and Product.**
 
