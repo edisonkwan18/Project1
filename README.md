@@ -1,39 +1,23 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Niconail
+## Welcome to NicoNail
+NicoNail is not just an online shop; it's a dynamic community committed to empowering individuals on their expressive journey through captivating nail art. Our platform strives to be the go-to haven for nail enthusiasts, providing a diverse selection of press-on nails that not only enhance your style but also mirror your distinctive personality.
 
-Welcome,
+Live link can be found here - [Niconail](https://edisonkwan18.github.io/Project1/)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Nico nail Am I Responsive Image](asset/document/responsive.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+### Am I Responsive ?
+[Image Source - Am I Responsive](https://ui.dev/amiresponsive?url=https://edisonkwan18.github.io/Project1)
 
-## Codeanywhere Reminders
+## Site Owner Goals
+### Our Unique Offerings:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- Personalized Style Choices: Tailor your press-on nail selections daily, effortlessly complementing your outfits for a truly personalized touch.
+- Safe for All Ages: NicoNail's press-on nails are gentle, safe, and suitable for all, including pregnant women and children, ensuring a worry-free nail enhancement solution.
+- Cost-Effective Versatility: NicoNail offers a budget-friendly alternative with versatile uses, encouraging financial savings without compromising on style.
+- Seamless Experience: Bid farewell to the awkward waiting period for natural nails to grow. NicoNail ensures a seamless experience with easy-to-apply press-on nails.
+Embrace individuality, celebrate creativity, and redefine your nail art journey with NicoNail, where your nails tell your one-of-a-kind story.
 
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+## User Stories/Goals
+### Target Audience 
+My target customer base is diverse, encompassing individuals of all ages and genders. We offer customized styles to meet specific preferences, tailoring unique nail designs for you. With the non-toxic and safe nature of press-on nails, they can be easily removed at any time, even making them suitable for use by pregnant women and children.
