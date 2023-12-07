@@ -34,7 +34,8 @@ For the use of color, I utilized Huemint.com to design a series of color codes u
 
 Low-fi wireframes were created using **Uizard**
 
-**Credit:* [Uizard](https://app.uizard.io/)
+**Credit:** [Uizard](https://app.uizard.io/)
+
  <details>
     <summary>Mobile Wireframe</summary>
    
@@ -67,7 +68,7 @@ Low-fi wireframes were created using **Uizard**
 
 #### Product - It is coming soon
 
-![Mobile Wireframe](asset/document/mock-desk-product.png)
+![Mobile Wireframe](asset/document/mock-mob-product.png)
 
  </details>
 
@@ -76,26 +77,33 @@ Low-fi wireframes were created using **Uizard**
  <summary>Desktop Wireframes</summary>
  
 #### Index  
-![Desktop Wireframe](asset/document/mock-mob-index.png)
+![Desktop Wireframe](asset/document/wire-desk-index.png)
 
 #### Wearing Instruction
-![Desktop Wireframe](asset/document/mock-mob-instruction.png)
+![Desktop Wireframe](asset/document/wire-desk-instruction.png)
 
 #### Contact
-![Desktop Wireframe]()
+![Desktop Wireframe](asset/document/wire-desk-contact.png)
 
 #### Product - It is coming soon
-![Desktop Wireframe]()
+![Desktop Wireframe](asset/document/wire-desk-product.png)
 
  </details>
 
  <details>
   <summary>Desktop Mockup</summary>
    
-![Desktop Wireframe](assets/docs/readme-images/larger-screen-layout2.webp)
-![Desktop Wireframe](assets/docs/readme-images/larger-screen-layout.webp)
-![Desktop Wireframe](assets/docs/readme-images/larger-screen-layout.webp)
-![Desktop Wireframe](assets/docs/readme-images/larger-screen-layout.webp)
+#### Index  
+![Desktop Wireframe](asset/document/mock-desk-index.png)
+
+#### Wearing Instruction
+![Desktop Wireframe](asset/document/mock-desk-instruction.png)
+
+#### Contact
+![Desktop Wireframe](asset/document/mock-desk-contact.png)
+
+#### Product - It is coming soon
+![Desktop Wireframe](asset/document/mock-desk-product.png)
 
  </details>
 
