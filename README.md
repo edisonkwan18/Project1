@@ -141,13 +141,21 @@ A favicon has been included and each page has a title of my app name \"Niconail\
 
 #### Navigation bar : Before
 
-![Navigation bar Image ](asset/document/navbar-before.png)
+![Navigation bar Image](asset/document/navbar-before.png)
 
 #### Navigation bar : After
 
-![Navigation bar Image ](asset/document/navbar-after-v1.png)
-
 **After the toggle is on, the pink circle will be extend. A Navbar appeared with 3 tags: Home, Working Instruction and Product.**
+
+![Navigation bar Image](asset/document/navbar-after-v1.png)
+
+### Fixed Icon
+
+Two fixed icon will be "stick" at bottom right hand corner on every page.
+- A "House" sign will be redirected to the index.html
+- A "Envelope" sign will be redirected to the index.html
+
+![Fixed Icon](asset/document/fixed icon.png)
 
 ### The landing page image
 
@@ -177,6 +185,21 @@ A favicon has been included and each page has a title of my app name \"Niconail\
 **After clicked on "ADD TO CART" button, an alert will appear in order to notice the user**
 
 ![Cursor hover](asset/document/cart-alert.png)
+
+### Video Function
+
+Video of wearing instruction will encourage user to watch when they are not willing to reading the instruction next to it.
+
+![Video](asset/document/video.png)
+
+### Contact us form
+
+User can ask us and tell us what they want by submitting the contact us form. 
+
+![Contact us form](asset/document/contact-us-form.png)
+
+
+
 
 
 
