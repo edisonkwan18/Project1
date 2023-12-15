@@ -155,7 +155,7 @@ Two fixed icon will be "stick" at bottom right hand corner on every page.
 - A "House" sign will be redirected to the index.html
 - A "Envelope" sign will be redirected to the index.html
 
-![Fixed Icon](asset/document/fixed icon.png)
+![Fixed Icon](asset/document/fixed_icon.png)
 
 ### The landing page image
 
